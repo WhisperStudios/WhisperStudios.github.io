@@ -8,9 +8,11 @@ ul {
     position: fixed;
     top: 0;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 li {
-    float: left;
     border-right: 1px solid #bbb;
 }
 li:last-child {
@@ -100,4 +102,19 @@ a.contactlink {
 }
 a.contactlink:hover {
     background-color: #ddd;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    ul {
+        flex-direction: column;
+    }
+    li {
+        border-right: none;
+        border-bottom: 1px solid #bbb;
+        width: 100%;
+    }
+    li:last-child {
+        border-bottom: none;
+    }
 }
