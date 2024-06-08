@@ -1,0 +1,71 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+li:last-child {
+	border-right: none;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+.active {
+	background-color: #04AA6D;
+}
+body {
+	background-color: lightblue;
+}
+h1.noticelv1 {
+	background-color: red;
+}
+h1.noticelv2 {
+	background-color: yellow;
+}
+h1.noticelv3 {
+	background-color: blue;
+}
+footer {
+	background-color: black;
+	position: fixed;
+	padding-bottom: 0px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+}
+h6.footer-text {
+	text-align: center;
+	text-transform: none;
+}
+div.whoswho {
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	text-align: center;
+	border-radius: 25px;
+	background-color: blueviolet;
+}
+h4.whoswho {
+	text-align: left;
+}
+a.contactlink {
+	background-color: whitesmoke;;
+	padding: 50px
+}
